@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy – One-Click Site Cleaner | سياسة الخصوصية – منظّف الموقع بنقرة</title>
+<style>
+ body{margin:0;font:16px/1.7 system-ui,"Segoe UI","Noto Sans","Noto Sans Arabic",Tahoma,Arial,sans-serif;color:#1f2937;background:#f9fafb}
+ main{max-width:860px;margin:0 auto;padding:24px 20px 60px}
+ nav{display:flex;gap:16px;justify-content:center;padding:14px;background:#0f766e} nav a{color:#fff;font-weight:600;text-decoration:none}
+ section{background:#fff;border:1px solid #e5e7eb;border-radius:10px;padding:8px 28px 20px;margin-top:24px}
+ h1{font-size:1.6em;color:#0f766e} h2{font-size:1.2em;margin-top:1.6em}
+ table{border-collapse:collapse;width:100%;font-size:.95em} th,td{border:1px solid #e5e7eb;padding:8px;vertical-align:top} th{background:#f3f4f6}
+ code{background:#f3f4f6;padding:1px 4px;border-radius:4px}
+ [dir=rtl] th,[dir=rtl] td{text-align:right}
+</style>
+</head>
+<body>
+<nav><a href="#en">English</a><a href="#ar" lang="ar">العربية</a></nav>
+<main>
+<section id="en" lang="en" dir="ltr">
+<h1>Privacy Policy: One-Click Site Cleaner (منظّف الموقع بنقرة)</h1>
+<p><strong>Effective date:</strong> November 18, 2026<br />
+<strong>Applies to:</strong> the "One-Click Site Cleaner" Chrome extension, version 1.1.3 and later<br />
+<strong>Published by:</strong> Codeologie ("we", "us"), the publisher of this extension on the Chrome Web Store<br />
+<strong>Contact:</strong> codeologie@gmail.com</p>
+<h2>Summary</h2>
+<p>One-Click Site Cleaner <strong>does not collect, sell, share or transmit any personal or user data</strong>: nothing ever leaves your device. It has no servers, no analytics, no advertising and no accounts. Everything it does happens locally in your browser, and only when you click the extension and confirm.</p>
+<h2>What the extension does</h2>
+<p>When you open the extension on a website and confirm, it deletes that website's browsing data (cookies, LocalStorage, SessionStorage, cache, Cache Storage, IndexedDB, Service Workers and File Systems) from <strong>your own browser</strong>. It then reloads the tab. By default it only affects the exact current host. Cookies for subdomains or the parent domain are deleted only if you tick those options yourself.</p>
+<h2>Chrome Web Store data disclosure</h2>
+<p>In the Chrome Web Store "Privacy practices" disclosure we declare two data categories: <strong>Authentication information</strong> (the current site's cookies, including login cookies) and <strong>Web history</strong> (the address of the current tab). We declare them because the extension <em>handles</em> this data locally to do its job. It is <strong>never collected by us, logged, transmitted or shared</strong>. The only data kept, briefly and on your device only, is described in "Temporary local storage" below.</p>
+<h2>Data the extension accesses (locally) and why</h2>
+<p>To delete a site's data, the extension briefly accesses some information inside your browser. This information <strong>never leaves your device</strong>:</p>
+<table>
+<thead>
+<tr>
+<th>Information</th>
+<th>Why it is accessed</th>
+<th>What happens to it</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>The address (URL) of the current tab</td>
+<td>To show you which site will be cleaned and to limit the clean-up to that site</td>
+<td>Shown in the popup. The site's address is kept temporarily on your device (see below). Never logged or sent</td>
+</tr>
+<tr>
+<td>Cookies of the current site (and, only if you opt in, of its subdomains/parent domain)</td>
+<td>To find and delete them</td>
+<td>Deleted. Cookie values are never saved, logged or sent. Only the <strong>number</strong> removed is counted and shown to you</td>
+</tr>
+<tr>
+<td>The number of LocalStorage / SessionStorage items on the page</td>
+<td>To clear them and show how many were removed</td>
+<td>Cleared. Only counts are kept and shown. Contents are never read into the extension, saved or sent</td>
+</tr>
+</tbody>
+</table>
+<h3>Temporary local storage</h3>
+<p>To finish a clean-up even if the popup closes, the extension temporarily stores the address of the site being cleaned, the cleaning options you chose and the result counters <strong>on your device only, inside the extension</strong>. This data is <strong>never sent anywhere</strong>. The result is deleted as soon as it has been shown to you. A result older than 10 minutes is no longer shown; it is deleted the next time you open the extension after that or when the browser restarts, whichever comes first. A confirmed clean-up that is still waiting for Chrome's permission expires after 2 minutes and is cancelled if the browser restarts.</p>
+<p>Apart from this, the extension keeps <strong>no</strong> history of the sites you clean. It does not write log files and does not send anything over the network. Its Content Security Policy sets <code>connect-src 'none'</code>, which blocks network requests from the extension's pages.</p>
+<h2>Permissions and how each one is used</h2>
+<ul>
+<li><strong>activeTab</strong>: lets the extension see the current tab's address, only after you click its icon, so it knows which site to clean.</li>
+<li><strong>scripting</strong>: runs a small built-in function in the current page to clear that page's LocalStorage and SessionStorage. No code is downloaded. All code ships inside the extension.</li>
+<li><strong>browsingData</strong>: deletes cache, Cache Storage, IndexedDB, LocalStorage, Service Workers and File Systems, <strong>restricted to the current site's origin only</strong>.</li>
+<li><strong>cookies</strong>: finds and deletes the current site's cookies (plus subdomain/parent-domain cookies only if you choose those options).</li>
+<li><strong>Optional site access (http/https host permission)</strong>: Chrome may ask you for access to the specific site(s) being cleaned <strong>at the moment you confirm</strong>. The extension removes that access as soon as the clean-up finishes or fails, and removes any leftover access when the browser starts. It never keeps permanent access to your websites.</li>
+<li>If you allow access after a request has expired (after 2 minutes), nothing is cleaned and that access is removed the next time you open the extension or when the browser restarts.</li>
+<li>Chrome itself may remember sites you previously allowed and re-grant them without asking; you can revoke them on the extension&#39;s details page.</li>
+</ul>
+<h2>Sharing and selling</h2>
+<p>We do not sell, rent, share or transfer any user data to anyone, because we do not collect any. We do not use data for advertising, profiling or creditworthiness/lending purposes.</p>
+<h2>Remote code</h2>
+<p>The extension does not load or execute any remote code. All of its code is included in the package reviewed by the Chrome Web Store.</p>
+<h2>Third-party data</h2>
+<p>The extension bundles a copy of the Public Suffix List (publicsuffix.org, Mozilla Public License 2.0) to determine domain boundaries. It is a static data file. It is not fetched at run time and involves no data exchange.</p>
+<h2>Children</h2>
+<p>The extension does not knowingly collect data from anyone, including children under 13 (or the applicable age in your country).</p>
+<h2>Your choices</h2>
+<p>You can remove the extension at any time from <code>chrome://extensions</code>. You can review or revoke its site access at any time on its details page. Remember that deleting a site's cookies signs you out of that site. That is the intended effect of the extension.</p>
+<h2>Changes to this policy</h2>
+<p>If the extension's data practices ever change, we will update this policy and its effective date before the change is released, and update the Chrome Web Store disclosures to match.</p>
+<h2>Contact</h2>
+<p>Questions about this policy: <strong>codeologie@gmail.com</strong></p>
+</section>
+<section id="ar" lang="ar" dir="rtl">
+<h1>سياسة الخصوصية: منظّف الموقع بنقرة (One-Click Site Cleaner)</h1>
+<p><strong>تاريخ السريان:</strong> 18 نوفمبر 2026<br />
+<strong>تنطبق على:</strong> إضافة Chrome «منظّف الموقع بنقرة»، الإصدار 1.1.3 وما بعده<br />
+<strong>الناشر:</strong> Codeologie (ويُشار إليه بـ«نحن»)، ناشر هذه الإضافة على Chrome Web Store<br />
+<strong>للتواصل:</strong> codeologie@gmail.com</p>
+<h2>الخلاصة</h2>
+<p>إضافة «منظّف الموقع بنقرة» <strong>لا تجمع أي بيانات شخصية أو بيانات مستخدم، ولا تبيعها ولا تشاركها ولا ترسلها</strong>، فلا شيء يغادر جهازك أبداً. لا توجد خوادم ولا أدوات تحليل ولا إعلانات ولا حسابات. كل ما تفعله الإضافة يحدث محلياً داخل متصفحك، وفقط عندما تنقرها وتؤكد المسح.</p>
+<h2>ماذا تفعل الإضافة؟</h2>
+<p>عندما تفتح الإضافة على موقع وتؤكد، تحذف بيانات التصفح الخاصة بهذا الموقع <strong>من متصفحك أنت</strong>، وهي: الكوكيز وLocalStorage وSessionStorage والذاكرة المؤقتة (Cache) وCache Storage وIndexedDB وService Workers وFile Systems. بعد ذلك تُعاد تحميل التبويب. افتراضياً لا يتأثر إلا المضيف الحالي بالضبط، ولا تُحذف كوكيز النطاقات الفرعية أو النطاق الأب إلا إذا اخترت ذلك بنفسك.</p>
+<h2>الإفصاح عن البيانات في Chrome Web Store</h2>
+<p>في قسم «ممارسات الخصوصية» على Chrome Web Store نُفصح عن فئتين من البيانات: <strong>معلومات المصادقة (Authentication information)</strong>، وهي كوكيز الموقع الحالي بما فيها كوكيز تسجيل الدخول، و<strong>سجل التصفح (Web history)</strong>، وهو عنوان التبويب الحالي. نُفصح عنهما لأن الإضافة <em>تتعامل</em> مع هذه البيانات محلياً لتؤدي عملها، لكنها <strong>لا تُجمع لدينا ولا تُسجَّل ولا تُرسَل ولا تُشارَك أبداً</strong>. البيانات الوحيدة التي تُحفظ، لمدة قصيرة وعلى جهازك فقط، موضّحة في فقرة «التخزين المحلي المؤقت» أدناه.</p>
+<h2>البيانات التي تصل إليها الإضافة محلياً، ولماذا</h2>
+<p>لكي تحذف الإضافة بيانات الموقع، تحتاج للحظات إلى بعض المعلومات داخل متصفحك. هذه المعلومات <strong>لا تغادر جهازك أبداً</strong>:</p>
+<table>
+<thead>
+<tr>
+<th>المعلومة</th>
+<th>سبب الوصول إليها</th>
+<th>ماذا يحدث لها</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>عنوان (URL) التبويب الحالي</td>
+<td>لنعرض لك الموقع الذي سيُنظَّف ونحصر التنظيف فيه</td>
+<td>تُعرض في النافذة، ويُحفظ عنوان الموقع مؤقتاً على جهازك (انظر أدناه)، ولا يُسجَّل ولا يُرسَل أبداً</td>
+</tr>
+<tr>
+<td>كوكيز الموقع الحالي، وكوكيز نطاقاته الفرعية أو نطاقه الأب إن اخترت ذلك</td>
+<td>للعثور عليها وحذفها</td>
+<td>تُحذف. قيم الكوكيز لا تُحفظ ولا تُسجَّل ولا تُرسَل، ويُحسب <strong>عددها</strong> فقط ويُعرض لك</td>
+</tr>
+<tr>
+<td>عدد عناصر LocalStorage وSessionStorage في الصفحة</td>
+<td>لمسحها وإظهار عدد ما حُذف</td>
+<td>تُمسح. تُحفظ الأعداد فقط وتُعرض لك، ولا يُقرأ المحتوى إلى الإضافة ولا يُحفظ ولا يُرسَل</td>
+</tr>
+</tbody>
+</table>
+<h3>التخزين المحلي المؤقت</h3>
+<p>لإكمال التنظيف حتى لو أُغلقت النافذة، تخزّن الإضافة مؤقتاً عنوان الموقع الذي يجري تنظيفه وخيارات التنظيف التي اخترتها وعدّادات النتيجة <strong>على جهازك فقط، داخل الإضافة</strong>، و<strong>لا تُرسَل إلى أي مكان أبداً</strong>. تُحذف النتيجة فور عرضها لك. والنتيجة التي مضى عليها أكثر من 10 دقائق لا تُعرض، وتُحذف عند فتح الإضافة في المرة التالية بعد ذلك أو عند إعادة تشغيل المتصفح، أيهما أسبق. أما طلب التنظيف المؤكَّد الذي ينتظر إذن Chrome فتنتهي صلاحيته بعد دقيقتين، ويُلغى عند إعادة تشغيل المتصفح.</p>
+<p>وباستثناء ذلك، لا تحتفظ الإضافة <strong>بأي</strong> سجل للمواقع التي تنظّفها، ولا تكتب ملفات سجلات، ولا ترسل أي شيء عبر الشبكة. سياسة أمان المحتوى (CSP) فيها تضبط <code>connect-src 'none'</code>، وهذا يمنع صفحات الإضافة من إجراء أي اتصال بالشبكة.</p>
+<h2>الصلاحيات وطريقة استخدام كل منها</h2>
+<ul>
+<li><strong>activeTab</strong>: تتيح للإضافة معرفة عنوان التبويب الحالي، فقط بعد نقرك على أيقونتها، لتعرف أي موقع ستنظّف.</li>
+<li><strong>scripting</strong>: تشغّل دالة صغيرة مضمّنة في الإضافة داخل الصفحة الحالية لمسح LocalStorage وSessionStorage الخاصة بها. لا يُنزَّل أي كود، فكل الكود موجود داخل الإضافة.</li>
+<li><strong>browsingData</strong>: تحذف الذاكرة المؤقتة وCache Storage وIndexedDB وLocalStorage وService Workers وFile Systems <strong>محصورة في أصل (origin) الموقع الحالي فقط</strong>.</li>
+<li><strong>cookies</strong>: تعثر على كوكيز الموقع الحالي وتحذفها، وكوكيز النطاقات الفرعية أو النطاق الأب فقط إن اخترت ذلك.</li>
+<li><strong>إذن الوصول الاختياري إلى المواقع (http/https)</strong>: قد يطلب Chrome منك الإذن للموقع أو المواقع المعنية فقط <strong>لحظة التأكيد</strong>. تزيل الإضافة الإذن فور انتهاء التنظيف أو فشله، وتزيل أي إذن متبقٍّ عند بدء تشغيل المتصفح، ولا تحتفظ أبداً بوصول دائم إلى مواقعك.</li>
+<li>إذا وافقت على الإذن بعد انتهاء صلاحية الطلب (بعد دقيقتين)، فلن يُنظَّف شيء، وتُزال تلك الصلاحية عند فتح الإضافة في المرة التالية أو عند إعادة تشغيل المتصفح.</li>
+<li>قد يتذكّر Chrome نفسه المواقع التي سمحت لها سابقاً ويعيد منحها دون أن يسأل؛ ويمكنك إلغاؤها من صفحة تفاصيل الإضافة.</li>
+</ul>
+<h2>المشاركة والبيع</h2>
+<p>لا نبيع أي بيانات مستخدم ولا نؤجّرها ولا نشاركها ولا ننقلها إلى أي جهة، فنحن لا نجمع أي بيانات أصلاً. ولا نستخدم البيانات للإعلانات أو بناء الملفات الشخصية أو تقييم الجدارة الائتمانية أو الإقراض.</p>
+<h2>الكود البعيد</h2>
+<p>لا تحمّل الإضافة أي كود من الإنترنت ولا تنفّذه. كل الكود موجود داخل الحزمة التي يراجعها Chrome Web Store.</p>
+<h2>بيانات الطرف الثالث</h2>
+<p>تتضمن الإضافة نسخة من قائمة اللواحق العامة (Public Suffix List من publicsuffix.org، بترخيص Mozilla Public License 2.0) لتحديد حدود النطاقات. هذه القائمة ملف بيانات ثابت لا يُجلب من الشبكة أثناء التشغيل، ولا يترتب عليه أي تبادل للبيانات.</p>
+<h2>الأطفال</h2>
+<p>لا تجمع الإضافة عن قصد أي بيانات من أي شخص، بمن فيهم الأطفال دون 13 عاماً (أو السن المعمول به في بلدك).</p>
+<h2>خياراتك</h2>
+<p>يمكنك إزالة الإضافة في أي وقت من <code>chrome://extensions</code>، ومراجعة أذونات الوصول إلى المواقع أو سحبها من صفحة تفاصيل الإضافة. تذكّر أن حذف كوكيز موقع ما يسجّل خروجك منه، وهذا هو الغرض المقصود من الإضافة.</p>
+<h2>التغييرات على هذه السياسة</h2>
+<p>إن تغيّرت ممارسات الإضافة المتعلقة بالبيانات يوماً ما، سنحدّث هذه السياسة وتاريخ سريانها قبل إصدار التغيير، ونحدّث إفصاحات Chrome Web Store لتطابقها.</p>
+<h2>التواصل</h2>
+<p>للاستفسار عن هذه السياسة: <strong>codeologie@gmail.com</strong></p>
+</section>
+</main>
+</body>
+</html>
